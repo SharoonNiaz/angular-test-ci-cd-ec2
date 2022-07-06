@@ -18,8 +18,8 @@ phases:
       - ng build
   post_build:
     commands:
-      - mv appspec.yml ./dist/angular-test-ci-cd-ec2
-      - mv scripts ./dist/angular-test-ci-cd-ec2
+     # - mv appspec.yml ./dist/angular-test-ci-cd-ec2
+     # - mv scripts ./dist/angular-test-ci-cd-ec2
 artifacts:
   files:
     - "**/*"
